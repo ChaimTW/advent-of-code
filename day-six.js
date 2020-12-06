@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const input = fs.readFileSync('day-six-input.txt', {encoding: 'utf-8'}).split("\n\n");
 
-//Creates a clean array of arrays; each array contains the passport fields to check
+//Creates a clean array of arrays;
 function intoArrayOfArrays(arr){
     let newArr = [];
     for(let i = 0; i < arr.length; i++){
